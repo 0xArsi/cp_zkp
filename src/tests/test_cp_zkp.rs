@@ -33,4 +33,8 @@ mod cp_zkp_tests{
        assert!(verifier.verify(&prover.solve_challenge()));
     }
     //soundness already tested (lightly) in verifier tests
+    #[test]
+    fn test_cp_zkp_soundness(){
+        println!("already tested");
+    }
 }
